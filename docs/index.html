@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Data Engineering Student</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="sidebar-info">
+            <figure class="avatar-box">
+                <img src="img/avatar.png" alt="Aashutosh Jung Thapa" class="avatar-image" width="132" height="132" decoding="async" fetchpriority="high">
+            </figure>
+            
+            <div class="info-content">
+                <h1 class="name">Aashutosh Jung Thapa</h1>
+                <p class="title">Data Engineering Student</p>
+            </div>
+            
+            <button class="info-more-btn" data-sidebar-btn aria-expanded="false">
+                <span>Show Contacts</span>
+            </button>
+        </div>
+        
+        <div class="sidebar-info-more">
+            <div class="separator"></div>
+            
+            <ul class="contacts-list">
+                <li class="contact-item">
+                    <div class="icon-box">📧</div>
+                    <div class="contact-info">
+                        <p class="contact-title">Email</p>
+                        <a href="mailto:aashutosh.jt@gmail.com" class="contact-link">aashutosh.jt@gmail.com</a>
+                    </div>
+                </li>
+                
+                <li class="contact-item">
+                    <div class="icon-box">📱</div>
+                    <div class="contact-info">
+                        <p class="contact-title">Phone</p>
+                        <a href="tel:+9779849149514" class="contact-link">+977 9849149514</a>
+                    </div>
+                </li>
+                
+                <li class="contact-item">
+                    <div class="icon-box">📍</div>
+                    <div class="contact-info">
+                        <p class="contact-title">Location</p>
+                        <address>Kathmandu, Nepal</address>
+                    </div>
+                </li>
+            </ul>
+            
+            <div class="separator"></div>
+            
+            <ul class="social-list">
+                <li class="social-item">
+                    <a href="https://x.com/AashutoshJT" class="social-link" target="_blank" rel="noopener noreferrer">Twitter</a>
+                </li>
+                <li class="social-item">
+                    <a href="https://github.com/AashuJT" class="social-link" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </li>
+                <li class="social-item">
+                    <a href="https://www.linkedin.com/in/aashutosh-jung-thapa-a70047311/" class="social-link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+    
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Navbar -->
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <button class="navbar-link active" data-nav-link>About</button>
+                </li>
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Resume</button>
+                </li>
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Contact</button>
+                </li>
+                <li class="navbar-item navbar-actions">
+                    <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false">Light Mode</button>
+                </li>
+            </ul>
+        </nav>
+        
+        <!-- About Section -->
+        <article class="about active" data-page="about">
+            <header>
+                <h2 class="h2 article-title">About me</h2>
+            </header>
+            
+            <section class="about-text">
+                <p>
+                    I'm a Data Science student at Tribhuvan University, passionate about data engineering and building scalable cloud-based 
+                    data systems. I'm diving deep into artificial intelligence, data communications, and preparing for advanced topics 
+                    in cloud computing and big data technologies.
+                </p>
+                <p>
+                    With a strong foundation in programming (C, Python, R), database systems, and statistical analysis, I'm eager to 
+                    apply my skills to real-world data engineering projects and continue learning cloud platforms and distributed data processing.
+                </p>
+            </section>
+            
+            <!-- Service -->
+            <section class="service">
+                <h3 class="h3 service-title">My Skills</h3>
+                
+                <ul class="service-list">
+                    <li class="service-item">
+                        <div class="service-icon-box">
+                            <div class="service-icon">💻</div>
+                        </div>
+                        <div class="service-content-box">
+                            <h4 class="h4 service-item-title">Programming & Development</h4>
+                            <p class="service-item-text">
+                                Proficient in Python, R, C, SQL, and Rust. Focused on data engineering pipelines and cloud-based data solutions.
+                            </p>
+                        </div>
+                    </li>
+                    
+                    <li class="service-item">
+                        <div class="service-icon-box">
+                            <div class="service-icon">📊</div>
+                        </div>
+                        <div class="service-content-box">
+                            <h4 class="h4 service-item-title">Data Analysis & Statistics</h4>
+                            <p class="service-item-text">
+                                Statistical analysis, data visualization, and working with Pandas, NumPy for data processing and insights.
+                            </p>
+                        </div>
+                    </li>
+                    
+                    <li class="service-item">
+                        <div class="service-icon-box">
+                            <div class="service-icon">🗄️</div>
+                        </div>
+                        <div class="service-content-box">
+                            <h4 class="h4 service-item-title">Database Management</h4>
+                            <p class="service-item-text">
+                                Designing and optimizing databases using MySQL, PostgreSQL, and understanding DBMS concepts and SQL queries.
+                            </p>
+                        </div>
+                    </li>
+                    
+                    <li class="service-item">
+                        <div class="service-icon-box">
+                            <div class="service-icon">☁️</div>
+                        </div>
+                        <div class="service-content-box">
+                            <h4 class="h4 service-item-title">Cloud Data Engineering</h4>
+                            <p class="service-item-text">
+                                Preparing for cloud platforms (AWS, GCP), data pipelines, ETL processes, and distributed data processing systems.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </article>
+        
+        <!-- Resume Section -->
+        <article class="resume" data-page="resume">
+            <header>
+                <h2 class="h2 article-title">Resume</h2>
+            </header>
+            
+            <section class="timeline">
+                <div class="title-wrapper">
+                    <h3 class="h3">Education</h3>
+                </div>
+                
+                <ol class="timeline-list">
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Tribhuvan University</h4>
+                        <span>2024 — Present</span>
+                        <p class="timeline-text">
+                            Bachelor of Data Science (BDS). Relevant Coursework: Data Structures & Algorithms, Database Management Systems, 
+                            Python & R Programming, Machine Learning, Statistics, Operating Systems, Artificial Intelligence.
+                        </p>
+                    </li>
+                    
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Reliance International Academy</h4>
+                        <span>2022 — 2024</span>
+                        <p class="timeline-text">
+                            Completed high school education with strong foundation in mathematics and analytical skills.
+                        </p>
+                    </li>
+                </ol>
+            </section>
+            
+            <section class="timeline">
+                <div class="title-wrapper">
+                    <h3 class="h3">Experience</h3>
+                </div>
+                
+                <ol class="timeline-list">
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Academic Projects</h4>
+                        <span>2024 — Present</span>
+                        <p class="timeline-text">
+                            Developing data science projects as part of coursework: database applications, statistical analysis tools, 
+                            machine learning models, and data visualization dashboards.
+                        </p>
+                    </li>
+                    
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Data Science Club</h4>
+                        <span>Member</span>
+                        <p class="timeline-text">
+                            Active member of the university Data Science Club, collaborating on workshops, study groups, and peer learning.
+                        </p>
+                    </li>
+                    
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Self-Learning & Seminars</h4>
+                        <span>2024 — Present</span>
+                        <p class="timeline-text">
+                            Actively participating in technical seminars, exploring emerging technologies like cloud computing, 
+                            NoSQL databases, and preparing for advanced topics in big data analytics and deep learning.
+                        </p>
+                    </li>
+                </ol>
+            </section>
+            
+            <section class="skill">
+                <h3 class="h3 skills-title">Technical Skills</h3>
+                
+                <ul class="skills-list content-card">
+                    <li class="skills-item">
+                        <div class="skill-category">
+                            <h5 class="h5">Programming Languages</h5>
+                            <p class="skill-text">Python, R, C, SQL, Rust</p>
+                        </div>
+                    </li>
+                    
+                    <li class="skills-item">
+                        <div class="skill-category">
+                            <h5 class="h5">Data Science & ML</h5>
+                            <p class="skill-text">Pandas, NumPy, Scikit-learn, Statistics, Data Visualization</p>
+                        </div>
+                    </li>
+                    
+                    <li class="skills-item">
+                        <div class="skill-category">
+                            <h5 class="h5">Databases & Systems</h5>
+                            <p class="skill-text">MySQL, PostgreSQL, DBMS, Operating Systems, Computer Networks</p>
+                        </div>
+                    </li>
+                    
+                    <li class="skills-item">
+                        <div class="skill-category">
+                            <h5 class="h5">Upcoming Studies</h5>
+                            <p class="skill-text">Machine Learning, Data Warehousing, Big Data (Hadoop), NLP, Cloud Computing</p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </article>
+        
+        <!-- Contact Section -->
+        <article class="contact" data-page="contact">
+            <header>
+                <h2 class="h2 article-title">Contact</h2>
+            </header>
+            
+            <section class="contact-text">
+                <p>
+                    I'm always interested in connecting with fellow data enthusiasts, discussing potential collaborations, 
+                    or hearing about exciting opportunities in data engineering and cloud computing. Feel free to reach out!
+                </p>
+            </section>
+            
+            <!-- Contact Info Cards -->
+            <section class="contact-info-section">
+                <h3 class="h3 section-title">Get In Touch</h3>
+                
+                <ul class="contact-info-list">
+                    <li class="contact-info-card">
+                        <div class="contact-icon-box">
+                            <span class="contact-icon">📧</span>
+                        </div>
+                        <div class="contact-card-content">
+                            <h4 class="h4 contact-card-title">Email</h4>
+                            <a href="mailto:aashutosh.jt@gmail.com" class="contact-card-link">aashutosh.jt@gmail.com</a>
+                            <p class="contact-card-text">Preferred for professional inquiries</p>
+                        </div>
+                    </li>
+                    
+                    <li class="contact-info-card">
+                        <div class="contact-icon-box">
+                            <span class="contact-icon">📱</span>
+                        </div>
+                        <div class="contact-card-content">
+                            <h4 class="h4 contact-card-title">Phone</h4>
+                            <a href="tel:+9779849149514" class="contact-card-link">+977 9849149514</a>
+                            <p class="contact-card-text">Available Mon-Fri, 9AM-6PM NPT</p>
+                        </div>
+                    </li>
+                    
+                    <li class="contact-info-card">
+                        <div class="contact-icon-box">
+                            <span class="contact-icon">📍</span>
+                        </div>
+                        <div class="contact-card-content">
+                            <h4 class="h4 contact-card-title">Location</h4>
+                            <p class="contact-card-link">Kathmandu, Nepal</p>
+                            <p class="contact-card-text">Open to remote opportunities</p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            
+            <!-- Social Media -->
+            <section class="contact-social">
+                <h3 class="h3 section-title">Connect With Me</h3>
+                <ul class="social-links-list">
+                    <li class="social-link-item">
+                        <a href="https://github.com/AashuJT" target="_blank" rel="noopener noreferrer" class="social-link-card">
+                            <span class="social-icon">💻</span>
+                            <span class="social-name">GitHub</span>
+                        </a>
+                    </li>
+                    <li class="social-link-item">
+                        <a href="https://www.linkedin.com/in/aashutosh-jung-thapa-a70047311/" target="_blank" rel="noopener noreferrer" class="social-link-card">
+                            <span class="social-icon">💼</span>
+                            <span class="social-name">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li class="social-link-item">
+                        <a href="https://x.com/AashutoshJT" target="_blank" rel="noopener noreferrer" class="social-link-card">
+                            <span class="social-icon">🐦</span>
+                            <span class="social-name">Twitter</span>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            
+        </article>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
